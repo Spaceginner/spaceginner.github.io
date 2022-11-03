@@ -1,0 +1,23 @@
+.ntext{
+    padding-left: 53px;
+    padding-right: 53px;
+    flex-flow: column;
+}
+
+.xsmall{
+    font-size: 16px;
+}
+
+div.whatsdone{
+    padding: 24px;
+}
+
+div#avatar{
+    flex-flow: row nowrap;
+    padding: 13px;
+}
+
+img#avatar{
+    width: 512px;
+    border-radius: 35px;
+}

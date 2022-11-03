@@ -1,0 +1,62 @@
+body{
+    font-family: Comfortaa;
+    font-size: 24px;
+    color: #BFBDBE;
+    background-color: #090909;
+}
+
+footer{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 200;
+    padding-top: 16px;
+}
+
+h1{
+    text-align: center;
+    font-size: 68px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 9px;
+    text-align: center;
+}
+
+p{
+    padding-right: 128px;
+    padding-left: 128px;
+}
+
+ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+}
+
+a:link, a:visited{
+    color: #3565F2;
+    animation-name: hyperlinkOut;
+    animation-duration: 0.2s;
+}
+
+a:hover{
+    color: #F2E5D5;
+    animation-name: hyperlinkIn;
+    animation-duration: 0.2s;
+}
+
+a:active{
+    color: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+@keyframes hyperlinkIn {
+    from {color: #3565F2}
+    to {color: #F2E5D5}
+}
+
+@keyframes hyperlinkOut {
+    from {color: #F2E5D5}
+    to {color: #3565F2}
+}
