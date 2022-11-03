@@ -4,6 +4,13 @@
     flex-flow: column;
 }
 
+div.box{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #BFBDBE;
+}
+
 .xsmall{
     font-size: 16px;
 }
@@ -11,6 +18,8 @@
 div.whatsdone{
     padding: 24px;
 }
+
+
 
 div#avatar{
     flex-flow: row nowrap;
