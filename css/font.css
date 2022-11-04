@@ -1,7 +1,11 @@
 /*
-    Credits for creating original (.ttf) "Comfortaa" font go to The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa)
+    Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+    with Reserved Font Name "Comfortaa".
 */
+
 @font-face {
     font-family: Comfortaa, sans-serif;
-    src: url("https://raw.githubusercontent.com/google/fonts/main/ofl/comfortaa/Comfortaa%5Bwght%5D.ttf") format("truetype");
+    src: url("fonts\\Comfortaa\\Comfortaa.ttf") format("truetype"),
+         url("fonts\\Comfortaa\\Comfortaa.woff2") format("woff2"),
+         url("fonts\\Comfortaa\\Comfortaa.woff") format("woff");
 }
