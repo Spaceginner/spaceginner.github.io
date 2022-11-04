@@ -1,4 +1,6 @@
-/*Credits for creating "Comfortaa" fonts go to Johan Aakerlund (aajohan@gmail.com)*/
+/*
+    Credits for creating original (.ttf) "Comfortaa" font go to The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa)
+*/
 @font-face {
     font-family: Comfortaa, sans-serif;
     src: url("https://raw.githubusercontent.com/google/fonts/main/ofl/comfortaa/Comfortaa%5Bwght%5D.ttf") format("truetype");
