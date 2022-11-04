@@ -2,10 +2,14 @@
     Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
     with Reserved Font Name "Comfortaa".
 */
-
 @font-face {
-    font-family: Comfortaa, sans-serif;
-    src: url("fonts\\Comfortaa\\Comfortaa.ttf") format("truetype"),
-         url("fonts\\Comfortaa\\Comfortaa.woff2") format("woff2"),
-         url("fonts\\Comfortaa\\Comfortaa.woff") format("woff");
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa/Comfortaa.eot');
+    src: url('fonts/Comfortaa/Comfortaa.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Comfortaa/Comfortaa.woff2') format('woff2'),
+         url('fonts/Comfortaa/Comfortaa.woff') format('woff'),
+         url('fonts/Comfortaa/Comfortaa.ttf') format('truetype'),
+         url('fonts/Comfortaa/Comfortaa.svg#Comfortaa') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
