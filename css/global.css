@@ -46,19 +46,3 @@ ul li{
     list-style-position: inside;
     text-align: left;
 }
-
-a:link, a:visited{
-    color: #3565F2;
-    animation-name: hyperlinkOut;
-    animation-duration: 0.2s;
-}
-
-a:hover{
-    color: #F2E5D5;
-    animation-name: hyperlinkIn;
-    animation-duration: 0.2s;
-}
-
-a:active{
-    color: #FFFFFF;
-}

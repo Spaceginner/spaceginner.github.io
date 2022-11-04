@@ -33,3 +33,23 @@ img#avatar{
     width: 512px;
     border-radius: 35px;
 }
+
+a:link{
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    color: #3565F2;
+    animation-name: hyperlinkOut;
+    animation-duration: 0.2s;
+}
+
+a:hover{
+    color: #F2E5D5;
+    animation-name: hyperlinkIn;
+    animation-duration: 0.2s;
+}
+
+a:active{
+    color: #FFFFFF;
+}
