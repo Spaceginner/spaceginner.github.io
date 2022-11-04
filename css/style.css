@@ -9,13 +9,6 @@
     flex-flow: column;
 }
 
-div.box{
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 6px;
-    border-color: #BFBDBE;
-}
-
 .xsmall{
     font-size: 16px;
 }
@@ -32,6 +25,13 @@ background: #BFBDBE;
 
 div.whatsdone{
     padding: 24px;
+}
+
+div.box{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #BFBDBE;
 }
 
 div#avatar{
