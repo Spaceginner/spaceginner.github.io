@@ -20,6 +20,16 @@ div.box{
     font-size: 16px;
 }
 
+::-moz-selection {
+    color: #090909;
+    background: #BFBDBE;
+}
+  
+::selection {
+color: #090909;
+background: #BFBDBE;
+}
+
 div.whatsdone{
     padding: 24px;
 }
