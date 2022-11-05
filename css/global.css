@@ -1,8 +1,8 @@
 body{
     font-family: Comfortaa;
     font-size: 24px;
-    color: #BFBDBE;
-    background-color: #090909;
+    color: var(--seconderyColor);
+    background-color: var(--mainColor);
     animation-name: loading;
     animation-duration: 1.5s;
 }

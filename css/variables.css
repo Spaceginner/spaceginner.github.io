@@ -1,0 +1,9 @@
+:root{
+    --currentTheme: "dark";
+    --mainColor: #090909;
+    --seconderyColor: #BFBDBE;
+    --linkFirstColor: #F2E5D5;
+    --linkSecondColor: #3565F2;
+    --linkThirdColor: #FFFFFF;
+    --buttonBackgroundColor: #252525;
+}

@@ -14,13 +14,13 @@
 }
 
 ::-moz-selection {
-    color: #090909;
-    background: #BFBDBE;
+    color: var(--mainColor);
+    background: var(--seconderyColor);
 }
   
 ::selection {
-color: #090909;
-background: #BFBDBE;
+color: var(--mainColor);
+background: var(--seconderyColor);
 }
 
 div.whatsdone{
@@ -31,11 +31,23 @@ div.box{
     border-width: 2px;
     border-style: solid;
     border-radius: 6px;
-    border-color: #BFBDBE;
+    border-color: var(--seconderyColor);
+}
+
+.icon:not(img){
+    padding: 1px;
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: var(--buttonBackgroundColor);
+    background-color: var(--buttonBackgroundColor);
+}
+
+img.icon{
+    filter: invert(84%) sepia(5%) saturate(58%) hue-rotate(278deg) brightness(92%) contrast(87%);
 }
 
 div#avatar{
-    flex-flow: row nowrap;
     padding: 13px;
 }
 
@@ -44,22 +56,33 @@ img#avatar{
     border-radius: 35px;
 }
 
+div#qsettings{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: var(--buttonBackgroundColor);
+    background-color: var(--buttonBackgroundColor);
+}
+
 a:link{
     text-decoration: underline;
 }
 
 a:link, a:visited{
-    color: #3565F2;
+    color: var(--linkSecondColor);
     animation-name: hyperlinkOut;
     animation-duration: 0.2s;
 }
 
 a:hover{
-    color: #F2E5D5;
+    color: var(--linkFirstColor);
     animation-name: hyperlinkIn;
     animation-duration: 0.2s;
 }
 
 a:active{
-    color: #FFFFFF;
+    color: var(--linkThirdColor);
 }

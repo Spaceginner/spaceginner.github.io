@@ -1,11 +1,11 @@
 @keyframes hyperlinkIn {
-    from {color: #3565F2}
-    to {color: #F2E5D5}
+    from {color: var(--linkSecondColor)}
+    to {color: var(--linkFirstColor)}
 }
 
 @keyframes hyperlinkOut {
-    from {color: #F2E5D5}
-    to {color: #3565F2}
+    from {color: var(--linkFirstColor)}
+    to {color: var(--linkSecondColor)}
 }
 
 @keyframes loading {
