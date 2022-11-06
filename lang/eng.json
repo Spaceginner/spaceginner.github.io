@@ -1,0 +1,36 @@
+{
+    "ids": [
+        "title1",
+        "title2",
+        "text1",
+        "text2",
+        "text3",
+        "text4",
+        "text5",
+        "text6",
+        "text7",
+        "text8",
+        "text9",
+        "text10",
+        "text11",
+        "text12",
+        "text13"
+    ],
+    "text": {
+        "title1" : "Who I am",
+        "title2" : "What have I actually done",
+        "text1" : "who i am and what did i do for this world, you may ask. well, i am a very young human and, did absolute nothing big to humanity (yet). BUT, i know python, c#... different things. i know math and other staff. also i kinda know how to make games using unity.",
+        "text2" : "alright, i am kinda a lier, but... i did something, one demo-version of a game for school project. Also, i made a joke program that translate any language to \"Uga-buga\" and vice versa. also, here is the list of things that i have done:",
+        "text3" : "Langusgator (translator)",
+        "text4" : "Spaze (game, maze, school project)",
+        "text5" : "ai art (no, for real)",
+        "text6" : "User script for auto111's WebUI",
+        "text7" : "some music (it is classical, so you wont listen to it)",
+        "text8" : "learnt english (and still doing it)",
+        "text9" : "this weird site",
+        "text10" : "being top student at school for 7 years straight (4 years left)",
+        "text11" : "invented these emojis: \":Э\", \":Є\" (i didnt googled them, btw)",
+        "text12" : "thats it. not much",
+        "text13" : "thx for visiting!"
+    }
+}

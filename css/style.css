@@ -41,10 +41,12 @@ div.box{
     border-style: solid;
     border-color: var(--buttonBackgroundColor);
     background-color: var(--buttonBackgroundColor);
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 img.icon{
-    filter: invert(84%) sepia(5%) saturate(58%) hue-rotate(278deg) brightness(92%) contrast(87%);
+    filter: var(--svgFilter);
 }
 
 div#avatar{
@@ -60,11 +62,33 @@ div#qsettings{
     position: absolute;
     top: 5px;
     right: 5px;
+    flex-flow: column;
+}
+
+div#buttons{
     border-width: 2px;
     border-radius: 6px;
     border-style: solid;
     border-color: var(--buttonBackgroundColor);
     background-color: var(--buttonBackgroundColor);
+}
+
+div#langsel{
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: var(--buttonBackgroundColor);
+    background-color: var(--buttonBackgroundColor);
+    flex-flow: column;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.langselb{
+    background-color: var(--buttonBackgroundColor);
+    color: var(--seconderyColor);
+    font-size: 20px;
+    justify-content: end;
 }
 
 a:link{

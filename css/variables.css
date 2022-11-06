@@ -1,9 +1,9 @@
 :root{
-    --currentTheme: "dark";
     --mainColor: #090909;
     --seconderyColor: #BFBDBE;
     --linkFirstColor: #F2E5D5;
     --linkSecondColor: #3565F2;
     --linkThirdColor: #FFFFFF;
     --buttonBackgroundColor: #252525;
+    --svgFilter: invert(84%) sepia(5%) saturate(58%) hue-rotate(278deg) brightness(92%) contrast(87%);
 }

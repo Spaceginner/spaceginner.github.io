@@ -17,7 +17,7 @@
 -->
 
 <!DOCTYPE html>
-<html lang="ru">
+<html>
     <head>
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
@@ -28,53 +28,67 @@
         <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/style.css">
+
         <title>Mepotieb</title>
     </head>
     <body>
+        <div class="fontfix"></div>
+
+        <div id="qsettings">
+            <div id="buttons">
+                <div class="icon"><button class="icon" id="qsettheme"><img class="icon" src="icons/dark_mode.svg" alt="dark_mode icon button"></button></div>
+                <div class="icon"><button class="icon" id="qsetlang"><img class="icon" src="icons/language.svg" alt="language icon button"></button></div>
+            </div>
+            <div id="langsel">
+                <div class="langselb"><button class="langselb" id="seleng">English</button></div>
+                <div class="langselb"><button class="langselb" id="selrus">Русский</button></div>
+                <div class="langselb"><button class="langselb" id="selukr">Українська</button></div>
+            </div>
+        </div>
+        <script src="js/qsettings.js"></script>
+
         <header>
             <h1>Spaceginner.free</h1>
             <div id="avatar"><img id="avatar" src="img/00057-3845996945-Astronomer_unreal_5_steampunk_dramatic_light_octane_render_trending_on_Artstation_masterpiece_8K.png" alt="Spaceginner avatar"></div>
         </header>
-        <div id="qsettings">
-            <div class="icon"><button class="icon" id="qsettheme"><img class="icon" src="icons/dark_mode.svg" alt="dark_mode icon button"></button></div>
-            <!--<div class="icon"><button id="qsetlang"><img src="icons/language.svg" alt="language icon button"></button></div>-->
 
-            <script src="js/qsettings.js"></script>
-        </div>
-        <div class="fontfix"></div>
-        <h2>Who I am</h2>
+        <h2><span id="title1">Who I am</span></h2>
         <div class="ntext">
             <p>
-                who i am and what did i do for this world, you may ask. well, i am a very young human and, did absolute nothing big to humanity <span class="xsmall">(yet)</span>.
-                BUT, i know python, c#... different things. i know math and other staff. also i kinda know how to make games using unity.
+                <span id="text1">
+                    who i am and what did i do for this world, you may ask. well, i am a very young human and, did absolute nothing big to humanity (yet).
+                    BUT, i know python, c#... different things. i know math and other staff. also i kinda know how to make games using unity.
+                </span>
             </p>
         </div>
-        <h2>What have I actually done</h2>
+
+        <h2><span id="title2">What have I actually done</span></h2>
         <div class="ntext">
-            <p>
-                alright, i am kinda a lier, but... i did something. One single game <span class="xsmall">(and i didnt finish it, lol. it was a school project and was presented as a demo)</span>.
+            <span id="text2">
+                alright, i am kinda a lier, but... i did something, one demo-version of a game for school project.
                 Also, i made a joke program that translate any language to "Uga-buga" and vice versa.
                 also, here is the list of things that i have done:
-                <div class="whatsdone">
-                    <div class="box">
-                        <ul>
-                            <li><a target="_blank" href="https://github.com/Spaceginner/Langusgator">Langusgator (translator)</a></li>
-                            <li>Spaze (game, maze, school project)</li>
-                            <li>ai art (no, for real)</li>
-                            <li><a target="_blank" href="https://github.com/Spaceginner/MagicPrompt-awebui">User script for auto111's WebUI</a></li>
-                            <li>some music (it is classical, so you wont listen to it)</li>
-                            <li>learnt english (and still doing it)</li>
-                            <li><a target="_blank" href="https://github.com/Spaceginner/spaceginner.github.io">this weird site</a></li>
-                            <li>being top student at school for 7 years straight (4 years left)</li>
-                            <li>invented these emojis: ":Э", ":Є" (i didnt googled them, btw)</li>
-                        </ul>
-                    </div>
+            </span>
+            <div class="whatsdone">
+                <div class="box">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/Spaceginner/Langusgator"><span id="text3">Langusgator (translator)</span></a></li>
+                        <li><span id="text4">Spaze (game, maze, school project)</span></li>
+                        <li><span id="text5">ai art (no, for real)</span></li>
+                        <li><a target="_blank" href="https://github.com/Spaceginner/MagicPrompt-awebui"><span id="text6">User script for auto111's WebUI</span></a></li>
+                        <li><span id="text7">some music (it is classical, so you wont listen to it)</span></li>
+                        <li><span id="text8">learnt english (and still doing it)</span></li>
+                        <li><a target="_blank" href="https://github.com/Spaceginner/spaceginner.github.io"><span id="text9">this weird site</span></a></li>
+                        <li><span id="text10">being top student at school for 7 years straight (4 years left)</span></li>
+                        <li><span id="text11">invented these emojis: ":Э", ":Є" (i didnt googled them, btw)</span></li>
+                    </ul>
                 </div>
-                thats it. not much
-            </p>
+            </div>
+            <span id="text12">thats it. not much</span>
         </div>
+
         <footer>
-            thx for visiting!
+            <span id="text13">thx for visiting!</span>
         </footer>
     </body>
 </html>
