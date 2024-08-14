@@ -30,7 +30,7 @@
   </div>
   
   <div class="flex flex-wrap lg:max-w-[1024px] lg:mx-auto justify-center">
-    <Link href="./gallery" desc="Gallery" icon={gal_logo}/>
+    <Link href="." desc="Gallery (WIP)" icon={gal_logo}/>
   </div>
 </div>
 
