@@ -27,7 +27,7 @@
 
   <Section name="projects." flex=true>
     <Link href="." desc="Gallery (WIP)" icon={gal_logo}/>
-    <Link href="opyn.ginner.space" desc="Opyn" />
+    <Link href="https://opyn.ginner.space/" desc="Opyn" />
   </Section>
 </div>
 
