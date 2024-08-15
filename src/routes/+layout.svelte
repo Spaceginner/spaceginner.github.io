@@ -1,11 +1,17 @@
 <script>
   import "../app.css";
+  import LineBreak from "$lib/decorations/LineBreak.svelte";
+  import Text from "$lib/text/Text.svelte";
 </script>
 
-<div class="xl:max-w-[1280px] lg:mx-auto font-mono">
-  <slot />
-
-  <div class="absolute bottom-0 right-0 left-0 text-center p-5">
-    <p class="text-sm text-text dark:text-text-dark">piece. love. goose.™</p>
+<div class="font-mono p-5 h-full flex flex-col" style="justify-content:space-between">
+  <div class="w-full">
+    <div class="flex-grow xl:max-w-screen-xl xl:mx-auto">
+      <slot />
+    </div>
   </div>
+
+  <footer class="text-center p-5 min-h-4">
+    <LineBreak><Text>piece. love. goose.™</Text></LineBreak>
+  </footer>
 </div>
