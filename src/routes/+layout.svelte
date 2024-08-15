@@ -6,6 +6,6 @@
   <slot />
 
   <div class="absolute bottom-0 right-0 left-0 text-center p-5">
-    <p class="text-sm text-text dark:text-text-dark">love. piece. science.™</p>
+    <p class="text-sm text-text dark:text-text-dark">piece. love. goose.™</p>
   </div>
 </div>
