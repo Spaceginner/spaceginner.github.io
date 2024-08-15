@@ -13,3 +13,11 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.stripe-background {
+    background: repeating-linear-gradient(315deg, rgba(0,0,0,0), rgba(0,0,0,0), theme('colors.secondary.dark') 20px);
+}
+
+.stripe-background-accent {
+    background: repeating-linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0), theme('colors.accent.dark') 10px);
+}

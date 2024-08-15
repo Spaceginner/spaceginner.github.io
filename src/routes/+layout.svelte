@@ -2,7 +2,7 @@
   import "../app.css";
 </script>
 
-<div class="xl:max-w-[1280px] lg:mx-auto font-mono min-h-screen">
+<div class="xl:max-w-[1280px] lg:mx-auto font-mono">
   <slot />
 
   <div class="absolute bottom-0 right-0 left-0 text-center p-5">
