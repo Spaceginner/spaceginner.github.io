@@ -9,8 +9,8 @@
   import dc_logo from "$lib/assets/icons/discord-mark-white.svg";
   import tg_logo from "$lib/assets/icons/telegram-white-icon.svg";
   import gal_logo from "$lib/assets/icons/gallery-icon.svg";
-    import Section from "$lib/Section.svelte";
-    import Paragraph from "$lib/text/Paragraph.svelte";
+  import Section from "$lib/Section.svelte";
+  import Paragraph from "$lib/text/Paragraph.svelte";
 </script>
 
 <div class="mt-5 text-center">
@@ -26,8 +26,8 @@
   </Section>
 
   <Section name="projects." flex=true>
-    <Link href="." desc="Gallery (WIP)" icon={gal_logo}/>
-    <Link href="https://opyn.ginner.space/" desc="Opyn" />
+    <Link href="./gallery" desc="Gallery (WIP)" icon={gal_logo}/>
+    <Link href="https://opyn.ginner.space/" desc="Opyn (N/A atm)" />
   </Section>
 </div>
 

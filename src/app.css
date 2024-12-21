@@ -14,10 +14,30 @@
     font-style: normal;
 }
 
-.stripe-background {
-    background: repeating-linear-gradient(315deg, rgba(0,0,0,0), rgba(0,0,0,0), theme('colors.secondary.dark') 20px);
+@media (prefers-color-scheme: dark) {
+    .stripe-background {
+        background: repeating-linear-gradient(315deg, theme('colors.background.dark'), theme('colors.background.dark'), theme('colors.secondary.dark') 20px);
+    }
+    
+    .stripe-background-accent {
+        background: repeating-linear-gradient(45deg, theme('colors.background.dark'), theme('colors.background.dark'), theme('colors.accent.dark') 10px);
+    }
+
+    .text-color-filter {
+        filter: brightness(0) saturate(100%) invert(83%) sepia(82%) saturate(12%) hue-rotate(205deg) brightness(101%) contrast(92%);
+    }
 }
 
-.stripe-background-accent {
-    background: repeating-linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0), theme('colors.accent.dark') 10px);
+@media (prefers-color-scheme: light) {
+    .stripe-background {
+        background: repeating-linear-gradient(315deg, theme('colors.background.DEFAULT'), theme('colors.background.DEFAULT'), theme('colors.secondary.DEFAULT') 20px);
+    }
+    
+    .stripe-background-accent {
+        background: repeating-linear-gradient(45deg, theme('colors.background.DEFAULT'), theme('colors.background.DEFAULT'), theme('colors.accent.DEFAULT') 10px);
+    }
+
+    .text-color-filter {
+        filter: brightness(0) saturate(100%) invert(3%) sepia(21%) saturate(939%) hue-rotate(219deg) brightness(108%) contrast(97%);
+    }
 }
