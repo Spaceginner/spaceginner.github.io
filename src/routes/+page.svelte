@@ -26,7 +26,7 @@
   </Section>
 
   <Section name="projects." flex=true>
-    <Link href="./gallery" desc="Gallery (WIP)" icon={gal_logo}/>
+    <Link href="./" desc="Gallery (WIP)" icon={gal_logo}/>
     <Link href="https://opyn.ginner.space/" desc="Opyn (N/A atm)" />
   </Section>
 </div>
