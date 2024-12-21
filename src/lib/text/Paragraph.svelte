@@ -5,8 +5,10 @@
     export let name: string;
 </script>
 
-<div class="w-full">
-    <Header>{name}</Header>
-</div>
-
-<Text><slot /></Text>
+<section id="{name}">
+    <div class="w-full">
+        <Header>{name}</Header>
+    </div>
+    
+    <Text><slot /></Text>
+</section>

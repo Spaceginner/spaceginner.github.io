@@ -6,8 +6,7 @@
     import Text from "./text/Text.svelte";
 </script>
 
-
-<div class="lg:max-w-[1024px] lg:mx-auto">
+<section id="{name}" class="lg:max-w-[1024px] lg:mx-auto">
     {#if name != null}
         <LineBreak><Text>{name}</Text></LineBreak>
     {/if}
@@ -19,4 +18,4 @@
     {:else}
         <slot />
     {/if}
-</div>
+</section>
